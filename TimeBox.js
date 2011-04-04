@@ -1,7 +1,8 @@
 // Complex Object for handling TimeBox shorthand
 var TimeBox = {
     error: function (msg) {
-        Alert(msg, "TimeBox Error");
+		// add any custom error display here
+        alert(msg);
     },
     wireSelectAllOnFocus: function (txtBoxID) {
         $("#" + txtBoxID).focus(function () {
